@@ -1,4 +1,7 @@
 #!/bin/bash
 
-cd ~
-ls -s .vim/.vimrc .vimrc
+git submodule init
+git submodule update
+
+cd ~/
+ln -s .vim/.vimrc .vimrc
