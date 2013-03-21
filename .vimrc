@@ -5,6 +5,10 @@ set softtabstop=3
 set shiftwidth=3
 set ai
 
+call pathogen#infect()
+
+filetype plugin indent on
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 call pathogen#infect()
